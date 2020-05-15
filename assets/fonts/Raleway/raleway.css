@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url(Raleway-Regular.eot); /* For IE6-8 */
+    src: url(Raleway-Regular.woff2) format('woff2'),
+         url(Raleways-Regular.woff) format('woff'),
+         url(Raleway-Regular.ttf) format('truetype');
+  }

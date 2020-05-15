@@ -1,0 +1,21 @@
+@use 'style1-theme';
+@use '../_general/sidenav';
+
+.nav-container {
+    background-color: style1-theme.$nav-bg-color;
+
+    a {
+        color: style1-theme.$nav-color;
+    }
+}
+
+.submenu {
+    a {
+        color: style1-theme.$nav-submenu-color;
+        display: flex;
+    }
+
+    a:hover {
+        color: style1-theme.$nav-submenu-color-hover;
+    }
+}
