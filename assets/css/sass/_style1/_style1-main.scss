@@ -8,9 +8,9 @@ main {
 }
 
 .simple.title {
-    background-color: $title-bg-color;
+    background-color: style1-theme.$title-bg-color;
     padding: 5px;
     text-align: center;
-    box-shadow: 5px 5px $title-box-color;
-    border: 1px solid $title-border-color;
+    box-shadow: 5px 5px style1-theme.$title-box-color;
+    border: 1px solid style1-theme.$title-border-color;
 }
