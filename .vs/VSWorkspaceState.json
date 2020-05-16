@@ -4,8 +4,9 @@
     "\\assets",
     "\\assets\\css",
     "\\assets\\css\\sass",
-    "\\assets\\css\\sass\\_style1"
+    "\\assets\\css\\sass\\_style1",
+    "\\assets\\css\\style1"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\assets\\css\\sass\\_style1\\_style1-responsive.scss",
   "PreviewInSolutionExplorer": false
 }

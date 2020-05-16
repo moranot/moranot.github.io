@@ -13,4 +13,11 @@ main {
     text-align: center;
     box-shadow: 5px 5px style1-theme.$title-box-color;
     border: 1px solid style1-theme.$title-border-color;
+
+    h1 {
+        font-size: 64px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-family: style1-theme.$font-head;
+    }
 }
