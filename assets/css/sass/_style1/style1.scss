@@ -13,8 +13,6 @@ header, section, footer, aside, main, article, figure {
     display: block;
 }
 
-
-
 :root {
     font-family: style1-theme.$font;
 }
@@ -51,4 +49,5 @@ a {
 
 .page-container {
     height: 100%;
+    position: relative;
 }
