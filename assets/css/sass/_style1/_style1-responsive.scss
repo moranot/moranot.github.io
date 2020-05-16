@@ -9,7 +9,6 @@
 
     .nav-container {
         height: 100%;
-        z-index: 1;
     }
 
     nav {
@@ -101,6 +100,7 @@
         width: 100vw;
         height: 65px;
         bottom: 0;
+        z-index: 1;
     }
 
     .nav-tabs {
