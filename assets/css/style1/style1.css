@@ -72,7 +72,7 @@ main {
   background-color: #fff;
   padding: 5px;
   text-align: center;
-  box-shadow: 5px 5px #eee;
+  box-shadow: 5px -5px #eee;
   border: 1px solid #000;
 }
 .simple.title h1 {
@@ -99,7 +99,7 @@ main {
   }
 
   .simple.title {
-    max-width: 50%;
+    max-width: 660px;
     margin-left: auto;
     margin-right: auto;
   }
