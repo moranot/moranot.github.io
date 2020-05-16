@@ -22,6 +22,7 @@ header, section, footer, aside, main, article, figure {
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
     box-sizing: border-box;
 
     * {
@@ -46,4 +47,8 @@ a {
 
 .center {
     @include block-center.block-center;
+}
+
+.page-container {
+    height: 100%;
 }
