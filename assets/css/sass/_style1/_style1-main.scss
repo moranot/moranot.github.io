@@ -1,7 +1,6 @@
 @use 'style1-theme';
 
 main {
-    margin-left: 25px;
     margin-right: 25px;
     padding-bottom:25px;
     padding-top: 25px;
@@ -29,37 +28,50 @@ main {
 @media(min-width: 768px)
 {
     h1 {
-        font-size: 64px;
-        
+        font-size: 64px; 
     }
-
-    p:before, p:after {
-        height: 1px;
-        width: 50px;
-        background-color: #000;
-        content: '';
-        position: relative;
-        display: inline-block;
-        bottom: 5px;
-        margin-right: 10px;
+    h2 {
+        font-size: 48px;
     }
-
-    p:before {
-        margin-right: 10px;
+    p {
+        font-size: 18px;
     }
+    .simple.title {
+        p:before, p:after {
+            height: 1px;
+            width: 50px;
+            background-color: #000;
+            content: '';
+            position: relative;
+            display: inline-block;
+            bottom: 5px;
+            margin-right: 10px;
+        }
 
-    p:after {
-        margin-left: 10px;
+        p:before {
+            margin-right: 10px;
+        }
+
+        p:after {
+            margin-left: 10px;
+        }
     }
 }
 
 @media(max-width: 767px)
 {
     h1 {
-        font-size: 48;
+        font-size: 48px
     }
-
-    p:before, p:after {
-        content: none;
+    h2 {
+        font-size: 36px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .simple.title{
+        p:before, p:after {
+            content: none;
+        }
     }
 }
