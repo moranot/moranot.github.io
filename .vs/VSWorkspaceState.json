@@ -4,9 +4,10 @@
     "\\assets",
     "\\assets\\css",
     "\\assets\\css\\sass",
+    "\\assets\\css\\sass\\_general",
     "\\assets\\css\\sass\\_style1",
     "\\assets\\css\\style1"
   ],
-  "SelectedNode": "\\assets\\css\\sass\\_style1\\_style1-footer.scss",
+  "SelectedNode": "\\assets\\css\\sass\\_style1\\style1.scss",
   "PreviewInSolutionExplorer": false
 }
