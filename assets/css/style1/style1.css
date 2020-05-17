@@ -183,7 +183,6 @@ main {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
-  display: flex;
 }
 
 @media (min-width: 768px) {
