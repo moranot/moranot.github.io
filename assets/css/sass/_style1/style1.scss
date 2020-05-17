@@ -40,6 +40,10 @@ body::-webkit-scrollbar-track {
     background: style1-theme.$scrolltrack-color;
 }
 
+.flex {
+    display: flex;
+}
+
 a {
     text-decoration: none;
 }
