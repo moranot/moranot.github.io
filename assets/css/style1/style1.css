@@ -166,6 +166,12 @@ li {
   color: #00b8ff;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 15px;
+}
+
 @media (min-width: 768px) {
   .logo-container img {
     width: 75%;
@@ -329,6 +335,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  height: 100vh;
 }
 body * {
   box-sizing: inherit;
@@ -359,6 +366,7 @@ a {
   position: relative;
   padding-bottom: 20px;
   padding-left: 25px;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style1.css.map */
