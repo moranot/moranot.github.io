@@ -1,0 +1,10 @@
+@use '../_general/card';
+@use 'style1-theme';
+
+.card-header {
+    background-color: style1-theme.$card-head-bg-color;
+}
+
+.card-body {
+    background-color: style1-theme.$card-head-bg-color;
+}

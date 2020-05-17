@@ -1,12 +1,11 @@
 @use '../_general/block-center';
-@use '../_general/card';
-
 @use 'style1-theme';
 @use 'style1-header';
 @use 'style1-main';
 @use 'style1-sidenav';
 @use 'style1-footer';
 @use 'style1-responsive';
+@use 'style1-card';
 
 /* IE Support */
 header, section, footer, aside, main, article, figure {
@@ -50,5 +49,6 @@ a {
 .page-container {
     padding-bottom: 20px;
     padding-left: 25px;
-    height:100%;
+    height: 100%;
+    background-color: style1-theme.$page-color;
 }
