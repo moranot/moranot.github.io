@@ -490,7 +490,7 @@ body::-webkit-scrollbar-track {
   background: #fff;
 }
 
-.flex {
+[class~=__flex] {
   display: flex;
 }
 

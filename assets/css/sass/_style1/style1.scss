@@ -40,7 +40,7 @@ body::-webkit-scrollbar-track {
     background: style1-theme.$scrolltrack-color;
 }
 
-.flex {
+[class~="__flex"] {
     display: flex;
 }
 
