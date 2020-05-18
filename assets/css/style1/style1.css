@@ -441,10 +441,10 @@ footer {
 
 .card-body {
   font-size: 18px;
-  width: 95%;
+  width: 100%;
   display: flex;
   padding: 10px;
-  border-right: 2px solid #ccc;
+  border-right: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-bottom-right-radius: 5px;
@@ -452,11 +452,11 @@ footer {
 }
 
 .card-header {
-  background-color: #f5f5f5;
+  background-color: #efe9e9;
 }
 
 .card-body {
-  background-color: #f5f5f5;
+  background-color: #efe9e9;
 }
 
 /* IE Support */
