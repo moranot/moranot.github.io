@@ -1,5 +1,5 @@
-@use '../_general/block-center';
 @use '../_general/column';
+@use '../_general/classes';
 
 @use 'style1-theme';
 @use 'style1-header';
@@ -40,16 +40,8 @@ body::-webkit-scrollbar-track {
     background: style1-theme.$scrolltrack-color;
 }
 
-[class*="__flex"] {
-    display: flex;
-}
-
 a {
     text-decoration: none;
-}
-
-.center {
-    @include block-center.block-center;
 }
 
 .page-container {

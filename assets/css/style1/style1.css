@@ -122,6 +122,14 @@
     width: 8.33333%;
   }
 }
+[class~=__flex] {
+  display: flex;
+}
+
+[class~=__center] {
+  justify-content: center;
+}
+
 header {
   padding-top: 20px;
 }
@@ -495,17 +503,8 @@ body::-webkit-scrollbar-track {
   background: #fff;
 }
 
-[class*=__flex] {
-  display: flex;
-}
-
 a {
   text-decoration: none;
-}
-
-.center {
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .page-container {
