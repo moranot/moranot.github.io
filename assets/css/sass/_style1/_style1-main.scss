@@ -1,8 +1,8 @@
 @use 'style1-theme';
 
 h1, h2 {
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 main {
@@ -30,7 +30,7 @@ main {
 
 .simple.text {
     background-color: style1-theme.$text-bg-color;
-    padding: 10px 20px;
+    padding: 10px;
 }
 
 .simple.text:not(:first-child) {
@@ -47,7 +47,7 @@ main {
         font-size: 64px; 
     }
     h2 {
-        font-size: 48px;
+        font-size: 32px;
     }
     p {
         font-size: 18px;
@@ -84,10 +84,10 @@ main {
         font-size: 48px;
     }
     h2 {
-        font-size: 36px;
+        font-size: 22px;
     }
     p {
-        font-size: 14px;
+        font-size: 16px;
     }
     .simple.title{
         p:before, p:after {
