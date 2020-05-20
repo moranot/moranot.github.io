@@ -1,0 +1,31 @@
+@use 'style1-theme';
+
+@media(min-width: 768px) {
+    .logo-container {
+        img {
+            width: 75%;
+        }
+    }
+
+    .page-container {
+        margin-left: 150px;
+    }
+}
+
+@media(max-width: 767px) {
+    .page-container {
+        margin-bottom: 65px;
+    }
+
+    .logo-container {
+        img {
+            width: 100%;
+        }
+    }
+
+    .logo-container {
+        width: 90%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

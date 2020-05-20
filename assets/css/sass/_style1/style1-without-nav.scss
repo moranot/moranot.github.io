@@ -1,0 +1,51 @@
+@use '../_general/column';
+@use '../_general/classes';
+
+@use 'style1-theme';
+@use 'style1-header';
+@use 'style1-main';
+@use 'style1-footer';
+@use 'style1-responsive-without-nav';
+@use 'style1-card';
+
+/* IE Support */
+header, section, footer, aside, main, article, figure {
+    display: block;
+}
+
+:root {
+    font-family: style1-theme.$font-main;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+
+    * {
+        box-sizing: inherit;
+    }
+}
+body::-webkit-scrollbar {
+    width: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: style1-theme.$scrollthumb-color;
+}
+
+body::-webkit-scrollbar-track {
+    background: style1-theme.$scrolltrack-color;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-container {
+    padding-bottom: 20px;
+    padding-left: 25px;
+    height: 100%;
+    background-color: style1-theme.$page-color;
+}
