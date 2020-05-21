@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Vidaloka";
+    src: url("../fonts/Vidaloka-Regular.tff");
+    src: url("../fonts/Vidaloka-Regular.woff")format("woff");
+    src: url("../fonts/Vidaloka-Regular.woff2")format("woff");
+}
+
+:root {
+    font-family: Vidaloka;
+}
+
+@media(min-width: 768px) {
+    .title {
+        font-size: 84px
+    }
+}
+
+@media(max-width: 767px) {
+    .title {
+        font-size: 48px;
+    }
+}
