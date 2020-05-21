@@ -6,12 +6,16 @@
 }
 
 :root {
-    font-family: Vidaloka;
+    font-family: "Vidaloka";
+}
+
+.title {
+    text-align: center;
 }
 
 @media(min-width: 768px) {
     .title {
-        font-size: 84px
+        font-size: 84px;
     }
 }
 
