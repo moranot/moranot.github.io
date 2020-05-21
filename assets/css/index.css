@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Vidaloka";
-    src: url("../fonts/Vidaloka-Regular.tff");
-    src: url("../fonts/Vidaloka-Regular.woff");
-    src: url("../fonts/Vidaloka-Regular.woff2");
+    src: url("../fonts/Vidaloka-Regular.tff") format("truetype"),
+        url("../fonts/Vidaloka-Regular.woff") format("woff"),
+        url("../fonts/Vidaloka-Regular.woff2") format("woff2");
 }
 
 :root {
